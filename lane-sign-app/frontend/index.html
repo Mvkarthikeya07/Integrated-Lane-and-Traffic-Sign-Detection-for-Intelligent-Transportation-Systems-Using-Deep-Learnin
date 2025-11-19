@@ -1,0 +1,43 @@
+<!-- frontend/index.html -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lane + Sign Detector — Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lane + Sign Detector</h1>
+
+      <div class="left">
+        <video id="video" autoplay muted playsinline></video>
+        <div class="controls">
+          <button id="startBtn">Start Camera</button>
+          <button id="stopBtn" disabled>Stop Camera</button>
+          <button id="captureBtn" disabled>Capture Now</button>
+          <label for="interval">Interval (ms)</label>
+          <input id="interval" type="number" value="800" min="100" step="50" />
+          <span id="status">Idle</span>
+        </div>
+
+        <div class="upload">
+          <input id="fileInput" type="file" accept="image/*" />
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="result-box">
+          <img id="resultImage" alt="Processed frame will appear here" />
+        </div>
+        <div class="meta">
+          <div>Signs detected: <span id="signCount">0</span></div>
+          <div>Proc time: <span id="procTime">0</span>s</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+/* frontend/styles.css */
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 16px; background:#f8f8f8; }
+.container { display:flex; gap:20px; align-items:flex-start; }
+.left, .right { background: #fff; padding: 12px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+.left { width: 520px; }
+.right { width: 680px; }
+video { width: 100%; height: auto; background: #000; border-radius:4px; }
+.controls { margin-top:8px; display:flex; gap:8px; align-items:center; }
+.result-box { width: 640px; height: 360px; display:flex; align-items:center; justify-content:center; background:#333; border-radius:4px; overflow:hidden; }
+.result-box img { max-width:100%; max-height:100%; display:block; }
+.meta { margin-top:8px; display:flex; gap:16px; }
+.upload { margin-top:8px; }
+button { padding:8px 12px; cursor:pointer; }
+input[type="file"] { padding:6px 0; }
