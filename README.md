@@ -167,5 +167,6 @@ Pull requests, issues, and improvements are welcome!
 
 ---
 
-## 📝 License
-This project is licensed under the **MIT License** — free to use, modify, and distribute with attribution.
+📜 License
+
+This project is licensed under the MIT License.
