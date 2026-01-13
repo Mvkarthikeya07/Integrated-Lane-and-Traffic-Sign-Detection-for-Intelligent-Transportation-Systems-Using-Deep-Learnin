@@ -1,4 +1,4 @@
-# 🚗 Lane and Traffic Sign Detection System Using Computer Vision and Deep Learning
+# 🚗 Integrated Lane and Traffic Sign Detection for Intelligent Transportation Systems Using Deep Learning
 
 ### Lightweight Lane Detection (LaneNet) + YOLOv8 Object/Sign Detection
 **Tech Stack:** Flask • OpenCV • PyTorch • JavaScript • HTML/CSS
